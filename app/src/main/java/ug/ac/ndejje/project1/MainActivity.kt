@@ -108,7 +108,7 @@ fun StudentID() {
                         Image(
                             painter = painterResource(id = flagPlaceholder),
                             contentDescription = "flag",
-                            modifier = Modifier.size(55.dp)
+                            modifier = Modifier.size(45.dp)
                         )
                     }
                 }
