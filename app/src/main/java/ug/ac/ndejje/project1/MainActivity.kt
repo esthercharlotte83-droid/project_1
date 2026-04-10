@@ -63,7 +63,7 @@ fun StudentID() {
         Box {
             // WATERMARK BACKGROUND
             Image(
-                painter = painterResource(id = logoPlaceholder),
+                painter = painterResource(id = R.drawable.ndu_ndejje_logo),
                 contentDescription = "watermark",
                 modifier = Modifier
                     .size(90.dp)
@@ -72,7 +72,7 @@ fun StudentID() {
             )
 
             Image(
-                painter = painterResource(id = logoPlaceholder),
+                painter = painterResource(id = R.drawable.ndu_ndejje_logo),
                 contentDescription = "watermark",
                 modifier = Modifier
                     .size(90.dp)
@@ -96,18 +96,18 @@ fun StudentID() {
                         verticalAlignment = Alignment.CenterVertically
                     ) {
                         Image(
-                            painter = painterResource(id = logoPlaceholder),
-                            contentDescription = "logo",
+                            painter = painterResource(id = R.drawable.ndu_ndejje_logo),
+                            contentDescription = "ndu-ndejje-logo",
                             modifier = Modifier
                                 .padding(top = 10.dp)
                                 .background(color = Color.White, CircleShape)
-                                .size(40.dp)
+                                .size(45.dp)
                                 .clip(CircleShape)
                         )
 
                         Image(
-                            painter = painterResource(id = flagPlaceholder),
-                            contentDescription = "flag",
+                            painter = painterResource(R.drawable.uganda_flag),
+                            contentDescription = "uganda-flag",
                             modifier = Modifier.size(45.dp)
                         )
                     }
@@ -177,8 +177,8 @@ fun StudentID() {
 
             // PHOTO
             Image(
-                painter = painterResource(id = photoPlaceholder),
-                contentDescription = "photo",
+                painter = painterResource(id = R.drawable.student_photo),
+                contentDescription = "student-photo",
                 modifier = Modifier
                     .padding(top = 10.dp)
                     .size(80.dp)
